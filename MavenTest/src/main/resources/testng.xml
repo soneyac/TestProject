@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name=" suite 1" verbose="1" >
+    <listeners>
+		<listener class-name="ExtentReporterListener.ExtentReporterNG" />
+	</listeners>
+  <test name="Regression suite 1" >
+    <classes>
+      <class name="com.qa.testcases.LoginPageTests"/>
+    </classes>
+ </test>
+</suite>

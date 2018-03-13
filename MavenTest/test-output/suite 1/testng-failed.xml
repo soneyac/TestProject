@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ suite 1]">
+  <listeners>
+    <listener class-name="ExtentReporterListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginPageTests">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginPageTests -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [ suite 1] -->
